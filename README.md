@@ -14,11 +14,10 @@
 +	mac管理员被搞成普通用户了。没有权限
 	
 	管理重启  按着`command + s` 等待出现命令行 root#  接着输入
-	>	/sbin/mount -uaw
-
-	>	rm var/db/.AppleSetupdone
-
-	>	reboot
+	
+>	/sbin/mount -uaw
+>	rm var/db/.AppleSetupdone
+>	reboot
 
 	重启系统 在重新创建一个管理员用户，创建号后，把原来的账号设置为管理员，退出登录，登录的帐号
 
